@@ -1,0 +1,35 @@
+.size-animation { 
+    transition: height 1000ms linear, width 1000ms linear;
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+.position-animation {
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 30px;
+    transition: transform 1000ms linear;
+}
+
+.radius-animation {
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    transition: border-radius 1000ms linear;
+}
+
+.games-div{
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.games-title{
+    text-align: center;
+}
